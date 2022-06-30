@@ -1,0 +1,499 @@
+{
+  "ORE_COAL_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 20,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IRON_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_GOLD_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 7,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_DIAMOND_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 12,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_REDSTONE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 11,
+    "oreChance": 6,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_COPPER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 13,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_LAPIS_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 9,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_EMERALD_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 3,
+    "oreChance": 2,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_HOLLOW_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 40,
+    "oreChance": 16,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_XP_LEAK_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 13,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_WATER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 15,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_LAVA_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MILK_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 30,
+    "oreChance": 24,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_COOKIE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 30,
+    "oreChance": 24,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_NETHER_GOLD_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 10,
+    "oreChance": 1,
+    "topOreChance": 1,
+    "OreCount": 0
+  },
+  "ORE_NETHER_QUARTZ_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 2,
+    "topOreChance": 2,
+    "OreCount": 0
+  },
+  "ORE_ANCIENT_DEBRIS_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 16,
+    "topOreChance": 24,
+    "OreCount": 0
+  },
+  "ORE_HOLLOW_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 50,
+    "oreChance": 14,
+    "topOreChance": 12,
+    "OreCount": 0
+  },
+  "ORE_XP_LEAK_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 7,
+    "oreChance": 9,
+    "topOreChance": 8,
+    "OreCount": 0
+  },
+  "ORE_LAVA_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 30,
+    "oreChance": 3,
+    "topOreChance": 3,
+    "OreCount": 0
+  },
+  "ORE_HOLLOW_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 60,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 1
+  },
+  "ORE_XP_LEAK_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 12,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 2
+  },
+  "ORE_BAUXITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_GALENA_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IRIDIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 3,
+    "oreChance": 12,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_LEAD_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 2,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_RUBY_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_SAPPHIRE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 9,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_SILVER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 2,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_TIN_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 2,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_CINNABAR_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 11,
+    "topOreChance": 5,
+    "OreCount": 0
+  },
+  "ORE_PYRITE_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 10,
+    "topOreChance": 5,
+    "OreCount": 0
+  },
+  "ORE_SPHALERITE_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 12,
+    "topOreChance": 5,
+    "OreCount": 0
+  },
+  "ORE_PERIDOT_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 6
+  },
+  "ORE_SHELDONITE_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 4
+  },
+  "ORE_SODALITE_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 4
+  },
+  "ORE_TUNGSTEN_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 2
+  },
+  "ORE_TC_COBALT_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 10,
+    "topOreChance": 10,
+    "OreCount": 0
+  },
+  "ORE_AE_CERTUS_QUARTZ_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 4,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_ER_YELLORITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_ER_BENITOITE_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 10,
+    "topOreChance": 10,
+    "OreCount": 0
+  },
+  "ORE_ER_ANGLESITE_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 4
+  },
+  "ORE_BR_URANIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IE_ALUMINUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IE_LEAD_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IE_SILVER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 6,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IE_NICKEL_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 7,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_IE_URANIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 7,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_ADAMANTITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 16,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_AQUARIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 4,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_BANGLUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 4,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_CARMOT_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_KYBER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 3,
+    "oreChance": 13,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_MANGANESE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 9,
+    "oreChance": 9,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_MORKITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 11,
+    "oreChance": 5,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_MYTHRIL_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_ORICHALCUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 14,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_OSMIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_PLATINUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 7,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_PROMETHEUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 6,
+    "oreChance": 4,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_QUADRILLUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 7,
+    "oreChance": 8,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_RUNITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 15,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_SILVER_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 4,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_STARRITE_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 4,
+    "oreChance": 16,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_TIN_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 3,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_UNOBTAINIUM_BEDROCK_OVERWORLD": {
+    "genOre": true,
+    "oreSize": 3,
+    "oreChance": 16,
+    "topOreChance": 0,
+    "OreCount": 0
+  },
+  "ORE_MM_NETHER_BANGLUM_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 5,
+    "topOreChance": 4,
+    "OreCount": 0
+  },
+  "ORE_MM_MIDAS_GOLD_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 7,
+    "oreChance": 4,
+    "topOreChance": 3,
+    "OreCount": 0
+  },
+  "ORE_MM_PALLADIUM_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 5,
+    "oreChance": 7,
+    "topOreChance": 8,
+    "OreCount": 0
+  },
+  "ORE_MM_STORMYX_BEDROCK_NETHER": {
+    "genOre": true,
+    "oreSize": 8,
+    "oreChance": 7,
+    "topOreChance": 9,
+    "OreCount": 0
+  },
+  "ORE_MM_STARRITE_BEDROCK_END": {
+    "genOre": true,
+    "oreSize": 7,
+    "oreChance": 0,
+    "topOreChance": 0,
+    "OreCount": 1
+  }
+}
