@@ -1335,6 +1335,16 @@
             "projectID": 463554,
             "fileID": 3832292,
             "required": true
+        },
+        {   // Simple Voice Chat
+          "projectID": 416089,
+          "fileID": 3825848,
+          "required": true
+        },
+        {   // Pohaw
+          "projectID": 633483,
+          "fileID": 3855683,
+          "required": true
         }
     ],
     "overrides": "overrides"
