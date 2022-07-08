@@ -1340,6 +1340,11 @@
           "projectID": 633483,
           "fileID": 3855683,
           "required": true
+        },
+        {   // Terralith
+          "projectID": 513688,
+          "fileID": 3696607,
+          "required": true
         }
     ],
     "overrides": "overrides"
