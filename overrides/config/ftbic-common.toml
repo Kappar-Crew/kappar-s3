@@ -158,7 +158,7 @@
 	"Extruder use" = 3.0
 	#Amount of energy stored in the Antimatter Constructor
 	#Range: 1.0 ~ 100000.0
-	"Antimatter constructor capacity" = 1000000.0
+	"Antimatter constructor capacity" = 100000.0
 	#Construction boost multiplier
 	#Range: 1.0 ~ 100000.0
 	"Antimatter constructor boost" = 6.0
@@ -188,7 +188,7 @@
 	"Advanced compressor use" = 16.0
 	#Amount of energy stored in the Teleporter
 	#Range: 1.0 ~ 100000.0
-	"Teleporter capacity" = 1000000.0
+	"Teleporter capacity" = 100000.0
 	#Energy usage of the Teleporter min
 	#Range: 0.0 ~ 100000.0
 	"Teleporter min use" = 100.0
@@ -203,7 +203,7 @@
 	"Teleporter max distance" = 1200.0
 	#Amount of energy stored in the Charge Pad
 	#Range: 1.0 ~ 100000.0
-	"Charge pad capacity" = 1000000.0
+	"Charge pad capacity" = 100000.0
 	#Amount of energy stored in the Powered Crafting Table
 	#Range: 1.0 ~ 100000.0
 	"Powered crafting table capacity" = 1200.0
@@ -236,7 +236,7 @@
 	"Pump move ticks" = 10
 	#Amount of energy stored in the Pump Tank
 	#Range: 1 ~ 100000
-	"Pump tank capacity" = 128000
+	"Pump tank capacity" = 100000
 	#Determines how effective an item can transport energy to something else
 	#Range: 0.0 ~ Infinity
 	"Item transfer efficiency" = 20.0

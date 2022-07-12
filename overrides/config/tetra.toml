@@ -22,22 +22,22 @@
 [worldgen]
 	#The number of geodes that should generate per chunk, set to 0 to disable
 	#Range: 0 ~ 65536
-	geode_density = 320
+	geode_density = 256
 	#Generates features in the world, further configuration available in "tetra/data/structures/"
 	features = true
 	#Used to limit how deep the feature generator will recurse into feature children, helps to avoid recursive loops and cascading worldgen in 3d-party generation features
 	#Range: 0 ~ 64
-	feature_depth = 8
+	feature_depth = 6
 
 #Allows tetra items to "level up" after being used a certain amount of times, allowing the player to choose from different ways to "hone" 1 module on the item. Major modules also settle after some time, increasing its integrity
 [module_progression]
 	enabled = true
 	#The base value for number of uses required for a module to settle
 	#Range: > -2147483648
-	settle_base = 270
+	settle_base = 200
 	#Level multiplier for settling limit, a value of 3 would cause a module that has settled once to require 3x as many uses before it settles again
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	settle_level_multiplier = 3.0
+	settle_level_multiplier = 2.0
 	#Durability multiplier for settling limit, a value of 1 would cause a module with 75 durability to require an additional 75 uses before it settles
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	settle_durability_multiplier = 0.5

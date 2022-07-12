@@ -6,30 +6,11 @@
         "STONE_ORE_REPLACEABLES"
       ],
       "distribution": "TRIANGLE",
-      "minY": 80,
+      "minY": 64,
       "maxY": 384,
-      "maxVeinSize": 9,
-      "spawnRate": 90.0,
-      "discardChanceOnAirExposure": 0.0,
-      "biomeFilters": {
-        "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "OVERWORLD"
-        ]
-      },
-      "replace": true
-    },
-    {
-      "ore": "minecraft:iron_ore",
-      "fillers": [
-        "STONE_ORE_REPLACEABLES"
-      ],
-      "distribution": "TRIANGLE",
-      "minY": -24,
-      "maxY": 56,
-      "maxVeinSize": 9,
-      "spawnRate": 10.0,
-      "discardChanceOnAirExposure": 0.0,
+      "maxVeinSize": 10,
+      "spawnRate": 64.0,
+      "discardChanceOnAirExposure": 0.1,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
@@ -45,9 +26,28 @@
       ],
       "distribution": "UNIFORM",
       "minY": -64,
-      "maxY": 72,
+      "maxY": 32,
+      "maxVeinSize": 10,
+      "spawnRate": 16.0,
+      "discardChanceOnAirExposure": 0.0,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+          "OVERWORLD"
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:iron_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 0,
+      "maxY": 96,
       "maxVeinSize": 4,
-      "spawnRate": 10.0,
+      "spawnRate": 16.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],

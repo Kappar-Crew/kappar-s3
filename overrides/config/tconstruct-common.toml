@@ -64,10 +64,10 @@
 		[recipes.ore_rates.foundry]
 			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
 			#Range: 1 ~ 45
-			nuggetsPerMetal = 9
+			nuggetsPerMetal = 15
 			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
 			#Range: 1 ~ 20
-			shardsPerGem = 4
+			shardsPerGem = 8
 
 		#Byprouct rates when melting in the foundry
 		[recipes.ore_rates.foundry_byproduct]
@@ -111,7 +111,7 @@
 	#Generate Cobalt
 	generateCobalt = true
 	#Approx Ores per Chunk
-	veinCountCobalt = 8
+	veinCountCobalt = 10
 
 	#Options related to slime geodes
 	[worldgen.geodes]

@@ -19,5 +19,5 @@
 	#Allowed Values: SLOW, NORMAL, FAST
 	theorycraftSpeed = "NORMAL"
 	#Show affinities of blocks and items even without scanning them
-	showUnscannedAffinities = false
+	showUnscannedAffinities = true
 

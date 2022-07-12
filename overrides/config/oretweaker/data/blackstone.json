@@ -6,11 +6,11 @@
         "minecraft:netherrack"
       ],
       "distribution": "UNIFORM",
-      "minY": 5,
-      "maxY": 31,
-      "maxVeinSize": 33,
+      "minY": 8,
+      "maxY": 56,
+      "maxVeinSize": 48,
       "spawnRate": 2.0,
-      "discardChanceOnAirExposure": 0.0,
+      "discardChanceOnAirExposure": 0.3,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
