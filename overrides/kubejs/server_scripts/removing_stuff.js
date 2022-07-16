@@ -1,5 +1,5 @@
 let RemoveAndHide= [
-    'twilightforest:uncrafting_table','lavaplus:bronze'
+    'twilightforest:uncrafting_table','lavaplus:bronze','cyclic:uncrafter'
 ]
 
 onEvent('recipes', event => {

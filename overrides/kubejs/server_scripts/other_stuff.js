@@ -1,9 +1,21 @@
 onEvent('tags.items', event => {
     event.add('minecraft:stone_ore_replaceable', 'minecraft:stone')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:andesite')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:diorite')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:granite')
+    event.add('minecraft:stone_ore_replaceable', 'primalmagick:marble_raw')
     event.add('minecraft:deepslate_ore_replaceable', 'minecraft:deepslate')
+    event.add('minecraft:deepslate_ore_replaceable', 'minecraft:tuff')
+    event.add('minecraft:deepslate_ore_replaceable', 'forbidden_arcanus:darkstone')
 })
 
 onEvent('tags.blocks', event => {
     event.add('minecraft:stone_ore_replaceable', 'minecraft:stone')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:andesite')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:diorite')
+    event.add('minecraft:stone_ore_replaceable', 'minecraft:granite')
+    event.add('minecraft:stone_ore_replaceable', 'primalmagick:marble_raw')
     event.add('minecraft:deepslate_ore_replaceable', 'minecraft:deepslate')
+    event.add('minecraft:deepslate_ore_replaceable', 'minecraft:tuff')
+    event.add('minecraft:deepslate_ore_replaceable', 'forbidden_arcanus:darkstone')
 })

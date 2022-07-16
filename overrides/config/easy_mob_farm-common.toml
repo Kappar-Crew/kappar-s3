@@ -4,48 +4,48 @@
 	#Enable/Disable owner messages about full storage to avoid lagging systems.
 	informOwnerAboutFullStorage = true
 	#Enable/Disable full storage log messages for the server logs.
-	logFullStorage = true
+	logFullStorage = false
 	#Number of roll's to get the loot preview for a captured mob. Higher numbers require more server load, but giving a more completed overview.
 	#Range: 1 ~ 5
-	lootPreviewRolls = 2
+	lootPreviewRolls = 5
 
 ["Animal Plains Farms"]
 	#Defines after how many seconds a loot drop is performed.
 	#Range: 10 ~ 3600
-	animalPlainsFarmProcessTime = 300
+	animalPlainsFarmProcessTime = 30
 	#Supported Mobs for the animal plains farm.
 	animalPlainsFarmMobs = ["minecraft:cow", "minecraft:chicken", "minecraft:donkey", "minecraft:pig", "minecraft:horse", "minecraft:sheep"]
 
 ["Creative Mob Farm"]
 	#Defines after how many seconds a loot drop is performed.
 	#Range: 10 ~ 3600
-	creativeMobFarmProcessTime = 60
+	creativeMobFarmProcessTime = 10
 
 ["Desert Farm"]
 	#Defines after how many seconds a drop is performed.
 	#Range: 10 ~ 3600
-	desertFarmProcessTime = 300
+	desertFarmProcessTime = 30
 	#Supported Mobs for the dessert farm.
 	desertFarmMobs = ["minecraft:skeleton", "minecraft:enderman", "minecraft:witch", "minecraft:spider", "minecraft:zombie", "minecraft:creeper", "minecraft:husk", "minecraft:rabbit"]
 
 ["Monster Plains Cave Farm"]
 	#Defines after how many seconds a loot drop is performed.
 	#Range: 10 ~ 3600
-	monsterPlainsCaveFarmProcessTime = 300
+	monsterPlainsCaveFarmProcessTime = 30
 	#Supported Mobs for the monster plains cave farm.
 	monsterPlainsCaveFarmMobs = ["minecraft:cave_spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper"]
 
 ["Ocean Farm"]
 	#Defines after how many seconds a loot drop is performed.
 	#Range: 10 ~ 3600
-	oceanFarmProcessTime = 300
+	oceanFarmProcessTime = 30
 	#Supported Mobs for the ocean farm.
 	oceanFarmMobs = ["minecraft:cod", "minecraft:salmon", "aquaculture:pacific_halibut", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "aquaculture:atlantic_halibut", "aquaculture:blackfish", "minecraft:squid", "aquaculture:pollock", "minecraft:glow_squid", "aquaculture:rainbow_trout", "minecraft:drowned", "aquaculture:atlantic_cod"]
 
 ["Swamp Farm"]
 	#Defines after how many seconds a loot drop is performed.
 	#Range: 10 ~ 3600
-	swampFarmProcessTime = 300
+	swampFarmProcessTime = 30
 	#Supported Mobs for the swamp farm.
 	swampFarmMobs = ["minecraft:cow", "minecraft:witch", "minecraft:chicken", "minecraft:zombie", "minecraft:pig", "minecraft:zombie_villager", "minecraft:sheep", "minecraft:slime"]
 

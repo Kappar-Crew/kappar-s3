@@ -1,30 +1,37 @@
-onEvent('player.logged_in', event => {
-    event.server.scheduleInTicks(5, event => {
-        let name = event.player.getName()
-        if (!event.player.stages.has('has_logged_in')) {
-            event.player.stages.add('has_logged_in')
-            loginNew(event,name)
-        }
-        else {
-            loginAgain(event,name)
-            loginNew(event,name)
-        }
-        })
+onEvent('player.logged_in', (event) => {
+    let name = event.getEntity()
+
+    if (name.equals('Lashmak')) {
+        event.server.tell('§5§l-All praise The Lord of Darkness!-')
+        event.server.runCommandSilent(`summon minecraft:lightning_bolt ${event.player.getX()} ${event.player.getY()+16} ${event.player.getZ()}`)
     }
-)
+
+    if (!event.player.stages.has('has_logged_in')) {
+        event.player.stages.add('has_logged_in')
+        loginNew(event,name)
+    }
+    else {
+        loginAgain(event,name)
+    }
+
+})
+
 
 function loginNew(event,name) {
-    event.server.tell('§aWelcome to the server, '+Text.purple(name)+'§a!')
-    if (name=='DerCommander323') {
+    let welcomeNew = Component.green('Welcome to the server, ').append(Component.darkGreen(name)).append('!')
+    event.server.tell(welcomeNew)
+
+    if (name.equals('DerCommander323')) {
         event.player.give('create:goggles')}
-    if (name=='DerCommander323') {
+    if (name.equals('Lashmak')) {
         event.player.give('hat:goggles_of_thaumaturgy')}
 }
 
 function loginAgain(event,name) {
-    if (name=='DerCommander323') {
-        event.server.tell('§l§5All praise The Lord of Darkness!')
-    } 
-    if (!name=='Purplik' && !name=='Lashmak') {
-        event.player.tell('Welcome back,'+Text.purple(name)+'!')}
+    //'§aWelcome back, §3'+name+'!'
+    let welcomeAgain = Component.green('Welcome back, ').append(Component.darkGreen(name)).append('!')
+
+    if (!name.equals('Purplik') && !name.equals('Lashmak')) {
+        event.player.tell(welcomeAgain)
+    }
 }

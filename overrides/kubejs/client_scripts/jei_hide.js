@@ -1,10 +1,4 @@
-let RemoveAndHide= [
-    'twilightforest:uncrafting_table','lavaplus:bronze'
-]
-
 onEvent('jei.hide.items', event => {
-	event.hide(RemoveAndHide)
-
 	event.hide([
         'createaddition:gold_rod',
         'assemblylinemachines:gold_rod',
@@ -36,21 +30,16 @@ onEvent('jei.hide.items', event => {
         'thermal:tin_dust',
         'thermal:tin_nugget',
         'thermal:tin_ingot',
-        'thermal:raw_tin',
+        'ftbic:tin_chunk',
         'thermal:tin_block',
-        'thermal:raw_tin_block',
-        'thermal:deepslate_tin_ore',
-        'thermal:tin_ore',
+        'ftbic:deepslate_tin_ore',
+        'ftbic:tin_ore',
         'ftbic:lead_block',
         'ftbic:lead_dust',
         'thermal:lead_plate',
         'thermal:lead_gear',
         'thermal:lead_nugget',
         'thermal:lead_ingot',
-        'thermal:raw_lead',
-        'thermal:raw_lead_block',
-        'thermal:deepslate_lead_ore',
-        'thermal:lead_ore',
         'ftbic:bronze_block',
         'thermal:bronze_plate',
         'thermal:bronze_gear',
@@ -64,16 +53,18 @@ onEvent('jei.hide.items', event => {
         'thermal:enderium_nugget',
         'ftbic:enderium_dust',
         'ftbic:enderium_ingot',
-        'thermal:silver_dust',
-        'thermal:silver_ingot',
-        'steampowered:bronze_sheet',
-		Item.of('chiselsandbits:block_bit').ignoreNbt(),
-		Item.of('evilcraft:dark_tank').ignoreNbt(),
-		Item.of('ftbic:fluid_cell').ignoreNbt(),
-		Item.of('ae2:facade').ignoreNbt(),
-		Item.of('tconstruct:crafting_station').ignoreNbt(),
-		Item.of('tconstruct:tinker_station').ignoreNbt(),
-		Item.of('tconstruct:part_builder').ignoreNbt()
+        'occultism:silver_dust',
+        'occultism:silver_ingot',
+        'occultism:silver_nugget',
+		Item.of('chiselsandbits:block_bit').ignoreNBT(),
+		Item.of('evilcraft:dark_tank').ignoreNBT(),
+		Item.of('ftbic:fluid_cell').ignoreNBT(),
+		Item.of('ae2:facade').ignoreNBT(),
+		Item.of('tconstruct:crafting_station').ignoreNBT(),
+		Item.of('tconstruct:tinker_station').ignoreNBT(),
+		Item.of('tconstruct:part_builder').ignoreNBT(),
+        'twilightforest:uncrafting_table',
+        'cyclic:uncrafter'
 
 	])
 
@@ -92,4 +83,8 @@ onEvent('jei.add.items', event => {
 	event.add(Item.of('tconstruct:crafting_station', '{texture:"minecraft:stripped_oak_wood"}'))
 	event.add(Item.of('tconstruct:tinker_station', '{texture:"minecraft:oak_planks"}'))
 	event.add(Item.of('tconstruct:part_builder', '{texture:"minecraft:oak_planks"}'))
+})
+
+onEvent('jei.remove.recipes', event => {
+    event.remove('create:mixing','integrateddynamics:special/facade')
 })

@@ -8,8 +8,8 @@
       "distribution": "UNIFORM",
       "minY": 0,
       "maxY": 256,
-      "maxVeinSize": 33,
-      "spawnRate": 46.0,
+      "maxVeinSize": 32,
+      "spawnRate": 42.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],

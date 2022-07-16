@@ -6,10 +6,10 @@
         "STONE_ORE_REPLACEABLES"
       ],
       "distribution": "TRIANGLE",
-      "minY": -16,
-      "maxY": 112,
-      "maxVeinSize": 10,
-      "spawnRate": 16.0,
+      "minY": -32,
+      "maxY": 128,
+      "maxVeinSize": 12,
+      "spawnRate": 12.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],

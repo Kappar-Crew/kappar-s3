@@ -8,9 +8,9 @@
       "distribution": "TRIANGLE",
       "minY": -144,
       "maxY": 16,
-      "maxVeinSize": 6,
-      "spawnRate": 8.0,
-      "discardChanceOnAirExposure": 0.1,
+      "maxVeinSize": 10,
+      "spawnRate": 2.0,
+      "discardChanceOnAirExposure": 0.2,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
@@ -27,8 +27,8 @@
       "distribution": "UNIFORM",
       "minY": -64,
       "maxY": 16,
-      "maxVeinSize": 12,
-      "spawnRate": 2.0,
+      "maxVeinSize": 4,
+      "spawnRate": 6.0,
       "discardChanceOnAirExposure": 0.1,
       "biomeFilters": {
         "biomeBlacklist": [],

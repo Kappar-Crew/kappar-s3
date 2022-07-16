@@ -2,10 +2,10 @@
 ["Dynamic Chunk View Distance Settings"]
 	#The minimum chunk view distance allowed to use. Default: 4
 	#Range: 3 ~ 200
-	minChunkViewDist = 5
+	minChunkViewDist = 6
 	#The maximum chunk view distance allowed to use. Set to the max a player could benefit from. Default: 15
 	#Range: 1 ~ 200
-	maxChunkViewDist = 15
+	maxChunkViewDist = 16
 	#The minimum simulation distance allowed to use. Default: 4
 	#Range: 1 ~ 200
 	minSimulationDist = 4
