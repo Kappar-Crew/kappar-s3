@@ -1,3 +1,4 @@
+Hi.
 Find more info on the website: https://kubejs.com/
 
 Directory information:
