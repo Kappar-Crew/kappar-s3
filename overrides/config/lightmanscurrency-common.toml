@@ -25,15 +25,15 @@
 		#Entities that will occasionally drop copper coins.
 		copper = ["minecraft:slime", "minecraft:silverfish"]
 		#Entities that will occasionally drop copper -> iron coins.
-		iron = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:husk", "minecraft:stray", "minecraft:magma_cube", "minecraft:zombie_villager", "minecraft:drowned"]
+		iron = []
 		#Entities that will occasionally drop copper -> gold coins.
-		gold = ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:phantom", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:hoglin", "minecraft:piglin_brute", "minecraft:piglin", "minecraft:zombified_piglin"]
+		gold = []
 		#Entities that will occasionally drop copper -> emerald coins.
-		emerald = ["minecraft:enderman", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker"]
+		emerald = []
 		#Entities that will occasionally drop copper -> diamond coins.
-		diamond = ["minecraft:wither_skeleton"]
+		diamond = ["minecraft:ender_dragon"]
 		#Entities that will occasionally drop copper -> netherite coins.
-		netherite = []
+		netherite = ["minecraft:wither"]
 		#Entities that will drop a large amount of copper coins.
 		boss_copper = []
 		#Entities that will drop a large amount of copper -> iron coins.
@@ -43,9 +43,9 @@
 		#Entities that will drop a large amount of copper -> emerald coins.
 		boss_emerald = ["minecraft:warden"]
 		#Entities that will drop a large amount of copper -> diamond coins.
-		boss_diamond = ["minecraft:ender_dragon"]
+		boss_diamond = []
 		#Entities that will drop a large amount of copper -> netherite coins.
-		boss_netherite = ["minecraft:wither"]
+		boss_netherite = []
 
 	#Chest loot settings. Note that any changes to these options will require a datapack reload (/reload) to be applied.
 	[common.chest_loot]
