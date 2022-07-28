@@ -1,5 +1,6 @@
 onEvent('jei.hide.items', event => {
 	event.hide([
+	'lightmanscurrency:coinmint',
         'createaddition:gold_rod',
         'assemblylinemachines:gold_rod',
         'thermal:gold_plate',
