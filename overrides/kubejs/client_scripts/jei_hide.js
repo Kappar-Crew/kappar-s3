@@ -1,6 +1,6 @@
 onEvent('jei.hide.items', event => {
-	event.hide([
-	'lightmanscurrency:coinmint',
+    event.hide([
+        'lightmanscurrency:coinmint',
         'createaddition:gold_rod',
         'assemblylinemachines:gold_rod',
         'thermal:gold_plate',
@@ -57,18 +57,16 @@ onEvent('jei.hide.items', event => {
         'occultism:silver_dust',
         'occultism:silver_ingot',
         'occultism:silver_nugget',
-		Item.of('chiselsandbits:block_bit').ignoreNBT(),
-		Item.of('evilcraft:dark_tank').ignoreNBT(),
-		Item.of('ftbic:fluid_cell').ignoreNBT(),
-		Item.of('ae2:facade').ignoreNBT(),
-		Item.of('tconstruct:crafting_station').ignoreNBT(),
-		Item.of('tconstruct:tinker_station').ignoreNBT(),
-		Item.of('tconstruct:part_builder').ignoreNBT(),
+        Item.of('chiselsandbits:block_bit').ignoreNBT(),
+        Item.of('evilcraft:dark_tank').ignoreNBT(),
+        Item.of('ftbic:fluid_cell').ignoreNBT(),
+        Item.of('ae2:facade').ignoreNBT(),
+        Item.of('tconstruct:crafting_station').ignoreNBT(),
+        Item.of('tconstruct:tinker_station').ignoreNBT(),
+        Item.of('tconstruct:part_builder').ignoreNBT(),
         'twilightforest:uncrafting_table',
         'cyclic:uncrafter'
-
-	])
-
+    ])
 })
 
 onEvent('jei.remove.categories', event => {
@@ -87,5 +85,5 @@ onEvent('jei.add.items', event => {
 })
 
 onEvent('jei.remove.recipes', event => {
-    event.remove('create:mixing','integrateddynamics:special/facade')
+    event.remove('create:automatic_shapeless','integrateddynamics:special/facade')
 })
