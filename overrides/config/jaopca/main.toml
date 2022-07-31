@@ -10,7 +10,7 @@
 	#Should the mod find crystal materials with ores.
 	crystal = true
 	#Should the mod find dust materials with ores.
-	dust = true
+	dust = false
 	#Should the mod find ingot materials without ores.
 	ingotPlain = true
 	#Should the mod find gem materials without ores.
@@ -18,7 +18,7 @@
 	#Should the mod find crystal materials without ores.
 	crystalPlain = true
 	#Should the mod find dust materials without ores.
-	dustPlain = true
+	dustPlain = false
 
 #Configurations related to material overrides.
 [materialOverrides]
@@ -32,7 +32,7 @@
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft"]
+	preferredMods = ["minecraft", "ftbic", "thermal", "create"]
 
 #Configurations related to block tags.
 [blockTags]

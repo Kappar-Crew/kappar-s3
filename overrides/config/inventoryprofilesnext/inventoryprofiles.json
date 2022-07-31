@@ -2,6 +2,8 @@
     "ModSettings": {
         "sort_order": "RAW_ID",
         "highlight_foused_items": false,
+        "enable_lock_slots": false,
+        "enable_updates_check": false,
         "first_run": false
     },
     "GuiSettings": {

@@ -5,7 +5,7 @@
 [cyclic]
 
 	#####################################################################################
-	# Enchantment related configs
+	# Enchantment related configs (if disabled, they may still show up as NBT on books and such but have functions disabled and are not obtainable in survival)
 	#####################################################################################
 	[cyclic.enchantment]
 
@@ -16,12 +16,18 @@
 		[cyclic.enchantment.beekeeper]
 			#Set false to disable enchantment
 			enabled = true
-			#Beheading enchant add player skin head drop, add any mob id and any skin
-			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 
 		[cyclic.enchantment.beheading]
 			#Set false to disable enchantment
 			enabled = true
+			#Beheading enchant add player skin head drop, add any mob id and any skin
+			EntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
+			#Base perecentage chance to drop a head on kill
+			#Range: 1 ~ 99
+			percent = 20
+			#Percentage increase per level of enchant. Formula [percent + (level - 1) * per_level] 
+			#Range: 1 ~ 99
+			per_level = 25
 
 		[cyclic.enchantment.curse]
 			#Set false to disable enchantment
@@ -306,6 +312,8 @@
 	# Block specific configs
 	#####################################################################################
 	[cyclic.blocks]
+		#If true, then all potions marked as harmful/negative will be used in addition to the 'anti_beacon.potion_list' for cures and immunities  (used by both sponge and artemisbeacon).
+		harmful_potions = true
 
 		[cyclic.blocks.cables]
 
@@ -547,4 +555,19 @@
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60
+
+		[cyclic.blocks.soundproofing]
+			#Radius to find and muffle sounds. 
+			#Range: 1 ~ 128
+			radius = 6
+
+		[cyclic.blocks.anti_beacon]
+			#Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon). 
+			#Range: 1 ~ 128
+			radius = 16
+			#Ticks to fire anti beacon and remove effects from entities (20 = 1 second).  Does not affect potion immunity which applies regardless of ticks. This only used if you gain a potion effect out of range and then walk into range, so keep this large.
+			#Range: 20 ~ 9999
+			ticks = 200
+			#List of extra effects to clear. supports wildcard such as 'cyclic:*'. (This list is is used even if harmful_potions=false or true both)
+			potion_list = ["minecraft:poison", "minecraft:*_poison", "minecraft:wither", "cyclic:gravity", "minecraft:weakness", "minecraft:slowness"]
 
