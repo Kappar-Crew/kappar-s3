@@ -1,9 +1,13 @@
 onEvent('player.logged_in', (event) => {
+event.server.schedule(100, () => {
+
     let name = event.getEntity()
+
+    event.player.potionEffects.add('minecraft:resistance', 200, 5, false, true)
 
     if (name.equals('Lashmak')) {
         event.server.tell('§5§l-All praise The Lord of Darkness!-')
-        event.server.runCommandSilent(`summon minecraft:lightning_bolt ${event.player.getX()} ${event.player.getY()+16} ${event.player.getZ()}`)
+//      event.server.runCommandSilent(`summon minecraft:lightning_bolt ${event.player.getX()} ${event.player.getY()+16} ${event.player.getZ()}`)
     }
 
     if (!event.player.stages.has('has_logged_in')) {
@@ -34,4 +38,4 @@ function loginAgain(event,name) {
     if (!name.equals('Purplik') && !name.equals('Lashmak')) {
         event.player.tell(welcomeAgain)
     }
-}
+}})

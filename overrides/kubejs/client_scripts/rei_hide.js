@@ -1,4 +1,4 @@
-onEvent('jei.hide.items', event => {
+onEvent('rei.hide.items', event => {
     event.hide([
         'lightmanscurrency:coinmint',
         'createaddition:gold_rod',
@@ -57,33 +57,33 @@ onEvent('jei.hide.items', event => {
         'occultism:silver_dust',
         'occultism:silver_ingot',
         'occultism:silver_nugget',
-        Item.of('chiselsandbits:block_bit').ignoreNBT(),
-        Item.of('evilcraft:dark_tank').ignoreNBT(),
-        Item.of('ftbic:fluid_cell').ignoreNBT(),
+        //Item.of('chiselsandbits:block_bit').ignoreNBT(),
+        //Item.of('evilcraft:dark_tank').ignoreNBT(),
+        //Item.of('ftbic:fluid_cell').ignoreNBT(),
         Item.of('ae2:facade').ignoreNBT(),
-        Item.of('tconstruct:crafting_station').ignoreNBT(),
-        Item.of('tconstruct:tinker_station').ignoreNBT(),
-        Item.of('tconstruct:part_builder').ignoreNBT(),
+        //Item.of('tconstruct:crafting_station').ignoreNBT(),
+        //Item.of('tconstruct:tinker_station').ignoreNBT(),
+        //Item.of('tconstruct:part_builder').ignoreNBT(),
         'twilightforest:uncrafting_table',
         'cyclic:uncrafter'
     ])
 })
 
-onEvent('jei.remove.categories', event => {
+onEvent('rei.remove.categories', event => {
     //console.log(event.getCategoryIds()) //log a list of all category ids to logs/kubejs/client.txt
     
     event.remove('twilightforest:uncrafting')
 })
 
-onEvent('jei.add.items', event => {
-	event.add(Item.of('evilcraft:dark_tank', {}))
-	event.add(Item.of('ftbic:fluid_cell', {}))
-	event.add(Item.of('ae2:facade', '{item:"minecraft:stone"}'))
-	event.add(Item.of('tconstruct:crafting_station', '{texture:"minecraft:stripped_oak_wood"}'))
-	event.add(Item.of('tconstruct:tinker_station', '{texture:"minecraft:oak_planks"}'))
-	event.add(Item.of('tconstruct:part_builder', '{texture:"minecraft:oak_planks"}'))
+onEvent('rei.add.items', event => {
+	//event.add(Item.of('evilcraft:dark_tank'))
+	//event.add(Item.of('ftbic:fluid_cell'))
+	event.add(Item.of('ae2:facade',{item:"minecraft:stone"}))
+	//event.add(Item.of('tconstruct:crafting_station',{texture:"minecraft:stripped_oak_wood"}))
+	//event.add(Item.of('tconstruct:tinker_station', {texture:"minecraft:oak_planks"}))
+	//event.add(Item.of('tconstruct:part_builder', {texture:"minecraft:oak_planks"}))
 })
 
-onEvent('jei.remove.recipes', event => {
+onEvent('rei.remove.recipes', event => {
     event.remove('create:automatic_shapeless','integrateddynamics:special/facade')
 })
