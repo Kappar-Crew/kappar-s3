@@ -27,7 +27,7 @@
       ],
       "distribution": "TRIANGLE",
       "minY": -64,
-      "maxY": 1,
+      "maxY": 8,
       "maxVeinSize": 8,
       "spawnRate": 6.0,
       "discardChanceOnAirExposure": 0.2,
@@ -35,7 +35,6 @@
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       }
     },
@@ -45,16 +44,15 @@
         "STONE_ORE_REPLACEABLES"
       ],
       "distribution": "TRIANGLE",
-      "minY": -64,
+      "minY": -96,
       "maxY": -32,
       "maxVeinSize": 6,
       "spawnRate": 2.0,
-      "discardChanceOnAirExposure": 0.5,
+      "discardChanceOnAirExposure": 0.3,
       "replace": true,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       }
     }

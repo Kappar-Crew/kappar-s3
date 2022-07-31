@@ -3,7 +3,7 @@
     {
       "ore": "minecraft:infested_stone",
       "fillers": [
-        "BASE_STONE_OVERWORLD"
+        "STONE_ORE_REPLACEABLE"
       ],
       "distribution": "UNIFORM",
       "minY": -64,

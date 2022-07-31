@@ -29,11 +29,10 @@
       "maxY": 256,
       "maxVeinSize": 16,
       "spawnRate": 2.0,
-      "discardChanceOnAirExposure": 0.0,
+      "discardChanceOnAirExposure": 0.5,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true

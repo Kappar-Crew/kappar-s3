@@ -1,37 +1,39 @@
 {
   "oreConfig": [
     {
-      "ore": "minecraft:diamond_ore",
+      "ore": "tconstruct:cobalt_ore",
       "fillers": [
-        "STONE_ORE_REPLACEABLES"
+        "NETHER_ORE_REPLACEABLE"
       ],
       "distribution": "TRIANGLE",
-      "minY": -144,
-      "maxY": 16,
+      "minY": -64,
+      "maxY": 96,
       "maxVeinSize": 10,
-      "spawnRate": 2.0,
+      "spawnRate": 4.0,
       "discardChanceOnAirExposure": 0.2,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
+          "NETHER"
         ]
       },
       "replace": true
     },
     {
-      "ore": "minecraft:diamond_ore",
+      "ore": "tconstruct:cobalt_ore",
       "fillers": [
-        "STONE_ORE_REPLACEABLES"
+        "NETHER_ORE_REPLACEABLE"
       ],
       "distribution": "UNIFORM",
-      "minY": -64,
-      "maxY": 16,
-      "maxVeinSize": 4,
-      "spawnRate": 6.0,
-      "discardChanceOnAirExposure": 0.1,
+      "minY": 10,
+      "maxY": 116,
+      "maxVeinSize": 6,
+      "spawnRate": 4.0,
+      "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
+          "NETHER"
         ]
       },
       "replace": true

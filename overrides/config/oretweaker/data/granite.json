@@ -3,7 +3,7 @@
     {
       "ore": "minecraft:granite",
       "fillers": [
-        "STONE_ORE_REPLACEABLES"
+        "BASE_STONE_OVERWORLD"
       ],
       "distribution": "UNIFORM",
       "minY": 64,
@@ -14,7 +14,6 @@
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true
@@ -33,7 +32,6 @@
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true

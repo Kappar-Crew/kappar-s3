@@ -10,11 +10,28 @@
       "maxY": 128,
       "maxVeinSize": 12,
       "spawnRate": 12.0,
+      "discardChanceOnAirExposure": 0.1,
+      "biomeFilters": {
+        "biomeBlacklist": [],
+        "biomeWhitelist": [
+        ]
+      },
+      "replace": true
+    },
+    {
+      "ore": "minecraft:copper_ore",
+      "fillers": [
+        "STONE_ORE_REPLACEABLES"
+      ],
+      "distribution": "UNIFORM",
+      "minY": 32,
+      "maxY": 320,
+      "maxVeinSize": 8,
+      "spawnRate": 12.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true

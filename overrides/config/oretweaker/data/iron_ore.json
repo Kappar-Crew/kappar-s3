@@ -8,13 +8,12 @@
       "distribution": "TRIANGLE",
       "minY": 64,
       "maxY": 384,
-      "maxVeinSize": 10,
+      "maxVeinSize": 8,
       "spawnRate": 64.0,
       "discardChanceOnAirExposure": 0.1,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true
@@ -28,12 +27,11 @@
       "minY": -64,
       "maxY": 16,
       "maxVeinSize": 12,
-      "spawnRate": 20.0,
+      "spawnRate": 8.0,
       "discardChanceOnAirExposure": 0.1,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true
@@ -47,12 +45,11 @@
       "minY": 0,
       "maxY": 96,
       "maxVeinSize": 6,
-      "spawnRate": 20.0,
+      "spawnRate": 12.0,
       "discardChanceOnAirExposure": 0.0,
       "biomeFilters": {
         "biomeBlacklist": [],
         "biomeWhitelist": [
-          "OVERWORLD"
         ]
       },
       "replace": true

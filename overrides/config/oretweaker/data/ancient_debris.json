@@ -3,7 +3,7 @@
     {
       "ore": "minecraft:ancient_debris",
       "fillers": [
-        "BASE_STONE_NETHER"
+        "NETHER_ORE_REPLACEABLE"
       ],
       "distribution": "TRIANGLE",
       "minY": 5,
@@ -22,7 +22,7 @@
     {
       "ore": "minecraft:ancient_debris",
       "fillers": [
-        "BASE_STONE_NETHER"
+        "NETHER_ORE_REPLACEABLE"
       ],
       "distribution": "UNIFORM",
       "minY": 10,
