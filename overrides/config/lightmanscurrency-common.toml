@@ -23,11 +23,11 @@
 		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
 		enableSpawnerEntityDrops = false
 		#Entities that will occasionally drop copper coins.
-		copper = ["minecraft:slime", "minecraft:silverfish"]
+		copper = []
 		#Entities that will occasionally drop copper -> iron coins.
 		iron = []
 		#Entities that will occasionally drop copper -> gold coins.
-		gold = []
+		gold = ["minecraft:piglin_brute"]
 		#Entities that will occasionally drop copper -> emerald coins.
 		emerald = []
 		#Entities that will occasionally drop copper -> diamond coins.
