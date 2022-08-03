@@ -3,7 +3,7 @@ event.server.schedule(100, () => {
 
     let name = event.getEntity()
 
-    event.player.potionEffects.add('minecraft:resistance', 200, 5, false, true)
+    event.player.potionEffects.add('minecraft:resistance', 300, 5, true, true)
 
     if (name.equals('Lashmak')) {
         event.server.tell('§5§l-All praise The Lord of Darkness!-')
